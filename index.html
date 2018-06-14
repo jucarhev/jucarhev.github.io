@@ -18,40 +18,81 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Disabled</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</nav>
+	
+	<section class="jumbotron" style="border-radius: 0;">
+		<div class="container">
+			<h1>Proyectos y utilerias</h1>
+			<p>Aplicaciones en python y php</p>
+		</div>
+	</section>
 
-	<div class="container mt-5">
+	<div class="container mt-5 mb-3">
 		<div class="row">
-			<div class="col-md-4">
-				<div class="card">
-					<img class="card-img-top" src="https://raw.githubusercontent.com/pacpac1992/MetaGenerador/master/main.png" alt="Card image cap">
-					<div class="card-body">
-					<h5 class="card-title">MetaGenerador</h5>
-					<p class="card-text">Un generador de datos para mysql en desarrollo, construido en wxpython</p>
+			<div class="col-md-8">
+				<div class="card p-2 mb-2">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="image_test/main.png" class="img-fluid" alt="">
+						</div>
+						<div class="col-md-8">
+							<h1>MetaGenerador</h1>
+							<p>
+								Generador de datos para MySQL, en formato sql, construido con wxpython3, mysqldb. EN su fase beta, mantiene una buena funcionalidad.
+							</p>
+							<a href="https://github.com/pacpac1992/MetaGenerador" class="btn btn-primary">Ver proyecto</a>
+						</div>
 					</div>
-					<div class="card-body">
-					<a href="https://github.com/pacpac1992/MetaGenerador" class="card-link">Ver</a>
+				</div>
+
+				<div class="card p-2 mb-2">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="image_test/DBViewer_001.png" class="img-fluid" alt="">
+						</div>
+						<div class="col-md-8">
+							<h1>DBViewer</h1>
+							<p>
+								Frontend de MySQL: esta escrito en wxpython, aunque muy basico, es capaz de realizar algunas consultas, aun este en desarrollo.
+							</p>
+							<a href="https://github.com/pacpac1992/db" class="btn btn-primary">Ver proyecto</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card p-2 mb-2">
+					<div class="row">
+						<div class="col-md-4">
+							<img src="image_test/MyMockup.png" class="img-fluid" alt="">
+						</div>
+						<div class="col-md-8">
+							<h1>MyMockup</h1>
+							<p>
+								Diseñador de mockups, escrito en wxpython, la aplicacion en si solo era una simple practica de la libreria ogl de wxpython, y demostro tener carencias.
+							</p>
+							<a href="https://github.com/pacpac1992/mymockup" class="btn btn-primary">Ver proyecto</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	<footer class="py-5 bg-dark">
+		<div class="container">
+			<p class="m-0 text-center text-white">Todos los proyectos son software libre</p>
+		</div>
+		<!-- /.container -->
+    </footer>
 
 	<script src="jquery-3.2.1.slim.min.js"></script>
 	<script src="popper.min.js"></script>
 	<script src="bootstrap.min.js"></script>
 </body>
 </html>
-
